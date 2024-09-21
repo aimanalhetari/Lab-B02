@@ -1,3 +1,3 @@
-for (var i in list) {
-  //   print(i);
+for (var country in countriesMap) {
+  //   print(country['country']);
   // }

@@ -50,7 +50,7 @@ class Lion extends Animal with Jumpable {
     print('Roar');
   }
 
-  factory Lion.fromJson(Map<String, dymanic> json) {
+  factory Lion.fromJson(Map<String, dynamic> json) {
     return Lion(
         name: json['name'], age: json['age'], prideSize: json['prideSize']);
   }
@@ -87,12 +87,13 @@ void main(List<String> args) {
   Animal human = Human(name: 'John', age: 30, job: 'Software Engineer');
   Animal lion = Lion(name: 'Simba', age: 5, prideSize: 15);
 
-  List<Animal> animals = [human, lion, animal];
+  List<Animal> animals = [human, lion];
 
   for (Animal animal in animals) {
     animal.makeSound();
 
     var json = {'name': 'Simba', 'age': 5, 'prideSize': 15};
     var cub = Lion.fromJson(json);
+    print(cub);
   }
 }

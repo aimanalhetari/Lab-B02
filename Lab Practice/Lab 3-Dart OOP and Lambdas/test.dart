@@ -15,7 +15,7 @@ void main(List<String> args) {
   // }
 
   // read from a file
-  var file = File('data/covid-data.json');
+  var file = File('covid.json');
 
   // convert the file to a string
   var jsonString = file.readAsStringSync();

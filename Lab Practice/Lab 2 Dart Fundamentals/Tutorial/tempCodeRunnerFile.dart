@@ -1,3 +1,2 @@
- // for (var number in numbers) {
-  //   print(number);
-  // }
+d(0, maximum);
+  print('Max is $max2');
