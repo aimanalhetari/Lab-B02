@@ -20,6 +20,7 @@ You are required to develop a `books_donation` application. Through this applica
      - The `catalog-books.json` file contains the list of books that you will use.
 2. **Book Class**
 
+   - Creat  e a `Book` class with the following attributes:
      - `title`: a `String` representing the book title.
      - `authors`: a `List<String>` representing the authors of the book.
      - `pageCount`: an `int` representing the number of pages.
@@ -118,6 +119,7 @@ You are required to implement a banking system with the following requirements. 
 
 - Fill out the `Lab1-TestingDoc-Grading-Sheet.docx` and save it in the `Assignments/Assignment1` folder of your repository.
 - Your submission should include:
+  - The Dart source code for the project. 
   - Testing sheet that has all the outputs of the tested methods.
 - Sync your repository to push your work to GitHub.
 
